@@ -4,7 +4,7 @@ Automatic speech recognition (ASR) converts a speech signal to text, mapping a s
 
 CTC :https://distill.pub/2017/ctc/  
 
-
+Kaggle notebook for CV15 mp3 to wav :https://www.kaggle.com/code/sakshirathi77/cv15-hindi-mp3-to-wav-dataset-kagglex?kernelSessionId=146652760
 
 Transformer: https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634
                    :https://github.com/huggingface/transformers
