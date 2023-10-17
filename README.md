@@ -1,25 +1,47 @@
-# ASR
-Automatic speech recognition (ASR) converts a speech signal to text, mapping a sequence of audio inputs to text outputs. Virtual assistants like Siri and Alexa use ASR models to help users everyday, and there are many other useful user-facing applications like live captioning and note-taking during meetings.
+# hindiSpeechPro
+
+###Objective
+
+The primary objective of this project is to build a robust and accurate ASR system that can effectively transcribe spoken Hindi into text.The motivation behind creating an ASR system for the Hindi language stems from the need to bridge the gap between technology and the diverse linguistic communities in India. Hindi, being one of the most widely spoken languages in the country, deserves a robust voice recognition system that can cater to the needs of millions of native speakers.
 
 
-CTC :https://distill.pub/2017/ctc/  
+###Workflow of project
+<img width="920" alt="flowchart" src="https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/60ae0bbc-c5e8-4485-bb64-8c9bf90562f5">
 
-Kaggle notebook for CV15 mp3 to wav :https://www.kaggle.com/code/sakshirathi77/cv15-hindi-mp3-to-wav-dataset-kagglex?kernelSessionId=146652760
+#Technology Utilized:
+Used cutting-edge technologies, specifically Facebook's Wav2Vec2 and OpenAI's Whisper, which are renowned for their proficiency in speech recognition tasks.
 
- Hugging Face Dataset :https://huggingface.co/datasets/SakshiRathi77/ASR_CV15_Hindi_wav_16000
-Transformer: https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634
-                   :https://github.com/huggingface/transformers
+#Wav2vec2
+<img width="920" alt="flowchart" src="https://raw.githubusercontent.com/patrickvonplaten/scientific_images/master/xls_r.png">
+For the Facebook Wav2Vec2 model fine-tuned on the provided dataset, the following key performance metrics were achieved on the evaluation set:
+Loss: 0.3691
+Word Error Rate (WER): 32.85%
+Character Error Rate (CER): 8.75%
+
+<a href="https://huggingface.co/SakshiRathi77/wav2vec2-large-xlsr-300m-hi-kagglex">
+  <img width="824" alt="wav2vec2 model" src="https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/cdb74b4b-f6d4-448e-886b-86b7c1d06be8">
+</a>
+
+#whisper
+<img width="920" alt="flowchart" src="https://raw.githubusercontent.com/openai/whisper/main/approach.png">
+The fine-tuned Whisper ASR model, on the other hand, exhibited exceptional performance, achieving the following metrics:
+Word Error Rate (WER): 13.9913%
+Character Error Rate (CER): 5.8844%
+Through this project, significant advancements have been made in the domain of Hindi language speech recognition, 
+contributing to improved communication technologies, accessibility, and usability for Hindi speakers across various applications and platforms
+
+<a href="https://huggingface.co/SakshiRathi77/whisper-hindi-kagglex">
+  <img width="824" alt="wav2vec2 model" src="https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/c5f974d1-0fdc-4538-8696-52a4687a1222">
+</a>
+
+#Reference
+CTC :[ctc](https://distill.pub/2017/ctc/)
+Hugging Face Dataset :[My dataset](https://huggingface.co/datasets/SakshiRathi77/ASR_CV15_Hindi_wav_16000)
+Transformer: [transformers](https://github.com/huggingface/transformers)
+research paper:[wav2vec-2-0-a-framework-for-self-supervised](https://paperswithcode.com/paper/wav2vec-2-0-a-framework-for-self-supervised)
+              :[illustrated-wav2vec-2.html](https://jonathanbgn.com/2021/09/30/illustrated-wav2vec-2.html)
+               :[fine-tune-wav2vec2-english](https://huggingface.co/blog/fine-tune-wav2vec2-english)
+               :[wav2vec2-with-ngram](https://huggingface.co/blog/wav2vec2-with-ngram)
+               :[/attention-is-all-you-need-discovering-the-transformer-paper](https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634)
 
 
-
-
-     
-research paper:https://paperswithcode.com/paper/wav2vec-2-0-a-framework-for-self-supervised
-              :https://jonathanbgn.com/2021/09/30/illustrated-wav2vec-2.html
-               ;https://huggingface.co/blog/fine-tune-wav2vec2-english
-               :https://huggingface.co/blog/wav2vec2-with-ngram
-
-
- 
-colab :https://colab.research.google.com/github/huggingface/notebooks/blob/main/transformers_doc/en/pytorch/asr.ipynb#scrollTo=mKcSSrshyd0d
-      :https://github.com/openai/whisper
