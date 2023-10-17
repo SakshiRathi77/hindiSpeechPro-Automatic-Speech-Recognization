@@ -5,13 +5,13 @@
 The primary objective of this project is to build a robust and accurate ASR system that can effectively transcribe spoken Hindi into text.The motivation behind creating an ASR system for the Hindi language stems from the need to bridge the gap between technology and the diverse linguistic communities in India. Hindi, being one of the most widely spoken languages in the country, deserves a robust voice recognition system that can cater to the needs of millions of native speakers.
 
 
-###Workflow of project
+### Workflow of project
 <img width="920" alt="flowchart" src="https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/60ae0bbc-c5e8-4485-bb64-8c9bf90562f5">
 
 #Technology Utilized:
 Used cutting-edge technologies, specifically Facebook's Wav2Vec2 and OpenAI's Whisper, which are renowned for their proficiency in speech recognition tasks.
 
-#Wav2vec2
+# Wav2vec2
 <img width="920" alt="flowchart" src="https://raw.githubusercontent.com/patrickvonplaten/scientific_images/master/xls_r.png">
 For the Facebook Wav2Vec2 model fine-tuned on the provided dataset, the following key performance metrics were achieved on the evaluation set:
 Loss: 0.3691
@@ -22,7 +22,7 @@ Character Error Rate (CER): 8.75%
   <img width="824" alt="wav2vec2 model" src="https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/cdb74b4b-f6d4-448e-886b-86b7c1d06be8">
 </a>
 
-#whisper
+# whisper
 <img width="920" alt="flowchart" src="https://raw.githubusercontent.com/openai/whisper/main/approach.png">
 The fine-tuned Whisper ASR model, on the other hand, exhibited exceptional performance, achieving the following metrics:
 Word Error Rate (WER): 13.9913%
@@ -34,14 +34,14 @@ contributing to improved communication technologies, accessibility, and usabilit
   <img width="824" alt="wav2vec2 model" src="https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/c5f974d1-0fdc-4538-8696-52a4687a1222">
 </a>
 
-#Reference
-CTC :[ctc](https://distill.pub/2017/ctc/)
-Hugging Face Dataset :[My dataset](https://huggingface.co/datasets/SakshiRathi77/ASR_CV15_Hindi_wav_16000)
-Transformer: [transformers](https://github.com/huggingface/transformers)
-research paper:[wav2vec-2-0-a-framework-for-self-supervised](https://paperswithcode.com/paper/wav2vec-2-0-a-framework-for-self-supervised)
-              :[illustrated-wav2vec-2.html](https://jonathanbgn.com/2021/09/30/illustrated-wav2vec-2.html)
-               :[fine-tune-wav2vec2-english](https://huggingface.co/blog/fine-tune-wav2vec2-english)
-               :[wav2vec2-with-ngram](https://huggingface.co/blog/wav2vec2-with-ngram)
-               :[/attention-is-all-you-need-discovering-the-transformer-paper](https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634)
+### Reference
+CTC :[ctc](https://distill.pub/2017/ctc/)<br>
+Hugging Face Dataset :[My dataset](https://huggingface.co/datasets/SakshiRathi77/ASR_CV15_Hindi_wav_16000)<br>
+Transformer: [transformers](https://github.com/huggingface/transformers)<br>
+research paper:[wav2vec-2-0-a-framework-for-self-supervised](https://paperswithcode.com/paper/wav2vec-2-0-a-framework-for-self-supervised)<br>
+              :[illustrated-wav2vec-2.html](https://jonathanbgn.com/2021/09/30/illustrated-wav2vec-2.html)<br>
+               :[fine-tune-wav2vec2-english](https://huggingface.co/blog/fine-tune-wav2vec2-english)<br>
+               :[wav2vec2-with-ngram](https://huggingface.co/blog/wav2vec2-with-ngram)<br>
+               :[/attention-is-all-you-need-discovering-the-transformer-paper](https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634)<br>
 
 
