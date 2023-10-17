@@ -37,9 +37,9 @@ contributing to improved communication technologies, accessibility, and usabilit
 </a>
 
 # Live Demo
-[Whisper].(https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wishper-Hi-Kagglex)
+### [Whisper](https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wishper-Hi-Kagglex)
 <br>
-[Wav2vec2](https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wav2Vec2-hi-kagglex)
+### [Wav2vec2](https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wav2Vec2-hi-kagglex)
 # Reference
 #### CTC 
 [ctc](https://distill.pub/2017/ctc/)
