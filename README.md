@@ -1,6 +1,6 @@
 # hindiSpeechPro
 
-###Objective
+# Objective
 
 The primary objective of this project is to build a robust and accurate ASR system that can effectively transcribe spoken Hindi into text.The motivation behind creating an ASR system for the Hindi language stems from the need to bridge the gap between technology and the diverse linguistic communities in India. Hindi, being one of the most widely spoken languages in the country, deserves a robust voice recognition system that can cater to the needs of millions of native speakers.
 
@@ -34,7 +34,7 @@ contributing to improved communication technologies, accessibility, and usabilit
   <img width="824" alt="wav2vec2 model" src="https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/c5f974d1-0fdc-4538-8696-52a4687a1222">
 </a>
 
-### Reference
+# Reference
 CTC :[ctc](https://distill.pub/2017/ctc/)<br>
 Hugging Face Dataset :[My dataset](https://huggingface.co/datasets/SakshiRathi77/ASR_CV15_Hindi_wav_16000)<br>
 Transformer: [transformers](https://github.com/huggingface/transformers)<br>
