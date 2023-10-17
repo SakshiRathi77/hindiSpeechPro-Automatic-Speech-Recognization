@@ -36,12 +36,15 @@ contributing to improved communication technologies, accessibility, and usabilit
   <img width="824" alt="wav2vec2 model" src="https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/c5f974d1-0fdc-4538-8696-52a4687a1222">
 </a>
 
+# Live Demo
+[Whisper].(https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wishper-Hi-Kagglex)
+<br>
+[Wav2vec2](https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wav2Vec2-hi-kagglex)
 # Reference
 #### CTC 
-[ctc](https://distill.pub/2017/ctc/)<br>
-
+[ctc](https://distill.pub/2017/ctc/)
 ##### Transformer
-[transformers](https://github.com/huggingface/transformers)<br>
+[transformers](https://github.com/huggingface/transformers)
 ##### Research Paper:<br>
 [wav2vec-2-0-a-framework-for-self-supervised](https://paperswithcode.com/paper/wav2vec-2-0-a-framework-for-self-supervised)<br>
         [illustrated-wav2vec-2.html](https://jonathanbgn.com/2021/09/30/illustrated-wav2vec-2.html)<br>
