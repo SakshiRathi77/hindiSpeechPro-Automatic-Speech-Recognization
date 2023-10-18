@@ -37,21 +37,18 @@ contributing to improved communication technologies, accessibility, and usabilit
 </a>
 
 # Live Demo
+
 ### [Whisper](https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wishper-Hi-Kagglex)
 ### [Wav2vec2](https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wav2Vec2-hi-kagglex)
+- [Sequence Modeling With CTC](https://distill.pub/2017/ctc/)
+- [State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow](https://github.com/huggingface/transformers)
+- Research Paper:
+  - [Wav2Vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://paperswithcode.com/paper/wav2vec-2-0-a-framework-for-self-supervised)
+  - [Illustrated Wav2Vec 2.0](https://jonathanbgn.com/2021/09/30/illustrated-wav2vec-2.html)
+  - [Fine-tune Wav2Vec2 (English)](https://huggingface.co/blog/fine-tune-wav2vec2-english)
+  - [Wav2Vec2 with N-Gram](https://huggingface.co/blog/wav2vec2-with-ngram)
+  - [Attention is All You Need: Discovering the Transformer Paper](https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634)
+  - [Whisper: A Speech-to-Text Model with Exceptional Accuracy and Robustness](https://cdn.openai.com/papers/whisper.pdf)
 
-# Reference
-#### CTC 
-[ctc](https://distill.pub/2017/ctc/)
-##### Transformer
-[transformers](https://github.com/huggingface/transformers)
-##### Research Paper:<br>
-[wav2vec-2-0-a-framework-for-self-supervised](https://paperswithcode.com/paper/wav2vec-2-0-a-framework-for-self-supervised)<br>
-        [illustrated-wav2vec-2.html](https://jonathanbgn.com/2021/09/30/illustrated-wav2vec-2.html)<br>
-               [fine-tune-wav2vec2-english](https://huggingface.co/blog/fine-tune-wav2vec2-english)<br>
-               [wav2vec2-with-ngram](https://huggingface.co/blog/wav2vec2-with-ngram)<br>
-               [/attention-is-all-you-need-discovering-the-transformer-paper](https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634)<br>
-               [Whisper](https://cdn.openai.com/papers/whisper.pdf)<br>
-               
 
 
