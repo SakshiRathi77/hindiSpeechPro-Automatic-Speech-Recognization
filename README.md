@@ -98,7 +98,7 @@ Word Error Rate (WER): 13.4129%
 Character Error Rate (CER): 5.6752%
 ``````
 ### Access the model from HuggingFace Hub
-[![Whisper model](https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/c5f974d1-0fdc-4538-8696-52a4687a1222)](https://huggingface.co/SakshiRathi77/whisper-hindi-kagglex)
+[![Whisper model](https://raw.githubusercontent.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/main/images/wishper_model.png)](https://huggingface.co/SakshiRathi77/whisper-hindi-kagglex)
 
 
 ```python
