@@ -1,12 +1,12 @@
 # Hindi Speech Pro
 
+![Logo](https://raw.githubusercontent.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/main/images/main_image.png)
 ## Objective
-
-The primary objective of this project is to build a robust and accurate ASR system that can effectively transcribe spoken Hindi into text.The motivation behind creating an ASR system for the Hindi language stems from the need to bridge the gap between technology and the diverse linguistic communities in India. Hindi, being one of the most widely spoken languages in the country, deserves a robust voice recognition system that can cater to the needs of millions of native speakers.
+The project,being part of Kagglex BIPOC Mentorship Program final project, aims to train two separate Hindi ASR models using the Facebook Wav2Vec2 (300M parameters) and OpenAI Whisper-Small models, respectively. The goal is to compare their performance, with a target WER of less than 4%, across various Hindi accents and dialects. Additionally, an evaluation framework will be established to assess real-time processing capabilities, including latency, throughput, and computational efficiency. The project intends to provide insights into the strengths and weaknesses of each model, enabling the selection of the most suitable ASR system for specific application requirements and deployment environments, thereby enhancing technological accessibility for Hindi speakers.
 
 
 ## Workflow of project
-<img width="920" alt="flowchart" src="https://github.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/assets/78577141/60ae0bbc-c5e8-4485-bb64-8c9bf90562f5">
+<img width="920" alt="flowchart" src="https://raw.githubusercontent.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/main/images/flowchart.png">
 
 ## Pre-tranined Models Used
 1. [Whisper Small 244M](https://huggingface.co/openai/whisper-small)
@@ -19,7 +19,7 @@ The primary objective of this project is to build a robust and accurate ASR syst
 
 The [Common Voice Corpus 15.0 Hindi](https://commonvoice.mozilla.org/en/datasets) dataset is a part of Mozilla's Common Voice project, which is known for being a multi-language dataset and is one of the largest publicly available voice datasets of its kind​1​. The Common Voice Corpus 15.0 was released on 9/13/2023, and the dataset size is 1.74 GB​​.
 
-![Alt text](image.png)
+![Dataset](https://raw.githubusercontent.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/main/images/Dataset.png)
 
 ## Wav2vec2
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/blob/main/wav2vec2/wav2vec2-xlsr-kagglex.ipynb)
@@ -142,6 +142,8 @@ CER: 10.4366
 
 
 ## Live Demo
+
+![Demo](https://raw.githubusercontent.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/main/images/demo.png)
 
 - [Whisper Space](https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wishper-Hi-Kagglex)
 - [Wav2vec2 Space](https://huggingface.co/spaces/SakshiRathi77/SakshiRathi77-Wav2Vec2-hi-kagglex)
