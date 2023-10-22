@@ -139,7 +139,7 @@ CER: 10.4366
 ```
 ## Final Result
 
-
+![Resut](https://raw.githubusercontent.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/main/images/Screenshot%202023-10-22%20145844.png)
 
 ## Live Demo
 
