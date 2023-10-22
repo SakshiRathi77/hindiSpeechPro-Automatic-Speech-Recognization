@@ -2,7 +2,7 @@
 
 ![Logo](https://raw.githubusercontent.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/main/images/main_image.png)
 ## Objective
-The project,being part of Kagglex BIPOC Mentorship Program final project, aims to train two separate Hindi ASR models using the Facebook Wav2Vec2 (300M parameters) and OpenAI Whisper-Small models, respectively. The goal is to compare their performance, with a target WER of less than 4%, across various Hindi accents and dialects. Additionally, an evaluation framework will be established to assess real-time processing capabilities, including latency, throughput, and computational efficiency. The project intends to provide insights into the strengths and weaknesses of each model, enabling the selection of the most suitable ASR system for specific application requirements and deployment environments, thereby enhancing technological accessibility for Hindi speakers.
+The project,being part of Kagglex BIPOC Mentorship Program final project, aims to train two separate Hindi ASR models using the Facebook Wav2Vec2 (300M parameters) and OpenAI Whisper-Small models, respectively. The goal is to compare their performance, with a target WER of less than 13%, across various Hindi accents and dialects. Additionally, an evaluation framework will be established to assess real-time processing capabilities, including latency, throughput, and computational efficiency. The project intends to provide insights into the strengths and weaknesses of each model, enabling the selection of the most suitable ASR system for specific application requirements and deployment environments, thereby enhancing technological accessibility for Hindi speakers.
 
 
 ## Workflow of project
@@ -139,7 +139,7 @@ CER: 10.4366
 ```
 ## Final Result
 
-![Resut](https://raw.githubusercontent.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/main/images/Screenshot%202023-10-22%20145844.png)
+![Resut](https://raw.githubusercontent.com/SakshiRathi77/hindiSpeechPro-Automatic-Speech-Recognization/main/images/result.png)
 
 ## Live Demo
 
@@ -167,10 +167,27 @@ CER: 10.4366
 
 ## Recomandations
 We can improve our model performace by:
-- Cleaning the text
-- Removing the noise from audio
-- Traning on full dataset
-- Adding Language model [Boosting Wav2Vec2 with n-grams in 🤗 Transformers](https://huggingface.co/blog/wav2vec2-with-ngram)
+- Cleaning the text:
+  
+    - Pre-processing textual data for uniformity and consistency.
+    - Manually improve mistakes in dataset if any.
+  
+- Removing the noise from audio:
 
+    - Applying techniques to filter out unwanted background noise.
+    - Enhancing the quality of the speech signal for improved transcription accuracy.
+      
+- Training on the full dataset:
 
-Tranined with ❤️ by Sakshi Rathi
+    - Using the complete dataset for comprehensive model training.
+    - Capturing various nuances and complexities in the data for improved performance.
+      
+- [Adding Language model Boosting Wav2Vec2 with n-grams in 🤗 Transformers](https://huggingface.co/blog/wav2vec2-with-ngram):
+
+    - Enhancing the Wav2Vec2 model's performance with n-grams.
+    - Integrating language models to provide contextual information for more accurate transcriptions.
+      
+- Advancements in the Demo:
+    - Incorporating an English language translator to enhance accessibility on a global scale.
+
+Made with ❤️ by Sakshi Rathi
