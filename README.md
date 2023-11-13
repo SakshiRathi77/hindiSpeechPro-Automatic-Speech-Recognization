@@ -165,6 +165,8 @@ CER: 10.4366
 - [Wav2Vec2 Evaluation](https://www.kaggle.com/code/sakshirathi77/wav2vec2-evaluation-kagglex/notebook)
 - [Whisper Evaluation](https://www.kaggle.com/code/sakshirathi77/whisper-evaluation-kagglex/notebook)
 
+## [Demo video Link](https://www.loom.com/share/ba384456d0ad4db5b2a94427ab6b6441?sid=fc752498-d907-4f87-a9e3-20920a021c63)
+
 ## Recomandations
 We can improve our model performace by:
 - Cleaning the text:
